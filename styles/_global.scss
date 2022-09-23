@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-size: $header1;
+}
+li,
+button,
+label,
+input,
+a,
+p {
+    font-size: $text;
+}
+h2 {
+    font-size: $header2;
+}
+h3 {
+    font-size: $header3;
+}
+h4,
+h5 {
+    font-size: $header4;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a.button {
+    margin-bottom: 3rem;
+    padding: 1rem 4rem;
+    background: whitesmoke;
+    border: solid;
+    border-radius: 1rem;
+    color: black;
+    cursor: pointer; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 1.2s ease;
+} 
+
+//media screen 
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 35%;
+    }
+  }
+  
+  @media screen and (max-width:960px){
+     body{
+         overflow-x: hidden;
+         .nav-links {
+            @include flex(space-around, center, column);
+         }
+         .contact-image img{
+             display: none;
+         }
+     }
+  }

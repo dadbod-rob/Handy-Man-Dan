@@ -1,0 +1,20 @@
+$header1: 3rem;
+$header2: 5rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.2rem;
+
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@import "global";
+@import "header";
+@import "about";
+@import "services";
+@import "blog";
+@import "contact";
+@import "footer";

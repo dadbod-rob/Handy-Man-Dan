@@ -1,0 +1,42 @@
+.contact {
+    min-height: 90vh;
+    flex-wrap: wrap;
+    @include flex(center, center, row); 
+}
+.contact-image img{
+    max-width: 60rem;
+    object-fit: contain;
+   
+}
+.form{
+    padding:7rem 15rem;
+}
+.form h2 {
+    margin: 5rem 0rem;
+}
+.form span {
+    color: black;
+}
+.form label {
+    display: block;
+    font-weight: bold;
+}
+.form input {
+    display: block;
+    margin: 3rem 0rem;
+    background: whitesmoke;
+    color: black;
+    border: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.form button {
+    padding: 1rem 6rem;
+    background: whitesmoke;
+    color: black;
+    border: solid;
+    border-radius: 1rem;
+  
+}
+
+

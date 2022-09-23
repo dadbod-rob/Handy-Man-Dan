@@ -1,0 +1,53 @@
+.blog {
+    min-height: 90vh;
+}
+
+
+.blog-head {
+    background: white;
+    min-height: 20vh;
+    color: black;
+    text-align: center;
+    @include flex(center, center, column);
+    box-shadow:  0px -10px 10px rgba(0,0,0,0.15), 0px 10px 10px rgba(0,0,0,0.15);
+    z-index: 2;
+    padding-top: 3rem;
+    
+    h2 { 
+        padding: 2rem;
+    }
+}
+.card {
+    text-align: center;
+    min-height: auto;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.15), 0px 20px 20px rgba(0,0,0,0.15);
+}
+.card h4 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.blog-cards {
+    @include flex(center, center, column);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+    .card p {
+        font-size: 2rem;
+        padding: 3rem;
+        font-weight: bold;
+        height:80vh;
+    }
+}
+
+.card img {
+    max-width: 20%;
+    margin: 2rem;
+}
+.card-icon {
+    background: whitesmoke;
+}

@@ -1,0 +1,11 @@
+
+    footer {
+    background:whitesmoke;
+    color: black;
+    display: flex;
+    padding: 2rem;
+}
+footer ul {
+    display: flex;
+    @include flex(center, center, column);
+}

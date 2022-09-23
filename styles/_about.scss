@@ -1,0 +1,38 @@
+.about {
+    min-height: 90vh;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.about-image {
+    flex: 1 1 40rem;
+    background: whitesmoke;
+    min-height: 50vh;
+    position: relative;
+    z-index: 1;
+    background-image:url("/images/IMG_3941.jpg");
+    background-size: cover;
+}
+.about-image img{
+    width: 80%;
+    height: 150%;
+    object-fit: contain;
+}
+.about-intro {
+    flex: 2 1 40rem;
+    @include flex(center, center, column);
+   
+
+    h2 {
+        font-weight: bolder;
+    }
+    h1 {
+        padding: 2rem 15rem 6rem 15rem ;
+        text-align: center;
+        letter-spacing: .2rem;
+        font-weight: bold;
+        line-height: 3.5rem;
+    }
+}
