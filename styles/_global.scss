@@ -6,6 +6,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    font-weight: bolder;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -46,7 +47,7 @@ a.button {
     border-radius: 1rem;
     color: black;
     cursor: pointer; 
-    font-weight: bold;
+    font-weight: bolder;
     display: inline-block;
 }
 
