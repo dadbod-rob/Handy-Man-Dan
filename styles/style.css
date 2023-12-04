@@ -8,6 +8,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  font-weight: bolder;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 li,
@@ -28,7 +29,7 @@ p {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 h3 {
@@ -57,7 +58,7 @@ a.button {
   border-radius: 1rem;
   color: black;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: bolder;
   display: inline-block;
 }
 
@@ -119,15 +120,15 @@ a.button {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 90vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)), url("/images/pexels-leon-ardho-1552252.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/images/pexels-leon-ardho-1552252.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)), url("/images/plumbing-1920-x-1080-picture-ovuxkavwms53gb05.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/images/plumbing-1920-x-1080-picture-ovuxkavwms53gb05.jpg");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .intro h2 {
-  font-weight: 900;
+  font-weight: Bolder;
   font-size: 7rem;
 }
 
@@ -161,7 +162,7 @@ nav .logo {
   color: black;
   text-transform: uppercase;
   letter-spacing: .5rem;
-  font-weight: bold;
+  font-weight: bolder;
   padding-right: 17rem;
 }
 
@@ -185,7 +186,7 @@ nav .nav-links a {
   color: black;
   text-decoration: none;
   letter-spacing: .5rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 nav .nav-links {
@@ -254,7 +255,7 @@ nav .nav-links {
   min-height: 50vh;
   position: relative;
   z-index: 1;
-  background-image: url("/images/IMG_3941.jpg");
+  background-image: url("/images/Screenshot 2023-12-04 152047.png");
   background-size: cover;
 }
 
@@ -292,7 +293,7 @@ nav .nav-links {
   padding: 2rem 15rem 6rem 15rem;
   text-align: center;
   letter-spacing: .2rem;
-  font-weight: bold;
+  font-weight: bolder;
   line-height: 3.5rem;
 }
 

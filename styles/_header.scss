@@ -1,13 +1,13 @@
 .intro {
     @include flex(center, center, column);
     min-height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.5), transparent),url('/images/pexels-leon-ardho-1552252.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), transparent),url('/images/plumbing-1920-x-1080-picture-ovuxkavwms53gb05.jpg');
     background-size: cover;
     background-position: center;
     color: white;
 
     h2 {
-        font-weight: 900;
+        font-weight: Bolder;
         font-size: 7rem;
     }
 }
@@ -28,7 +28,7 @@ nav {
         color: black;
         text-transform: uppercase;
         letter-spacing: .5rem;
-        font-weight: bold;
+        font-weight: bolder;
         padding-right: 17rem;
         }
 
@@ -41,7 +41,7 @@ nav {
         color: black;
         text-decoration: none;
         letter-spacing: .5rem;
-        font-weight: bold;
+        font-weight: bolder;
         }
 
     .nav-links {
